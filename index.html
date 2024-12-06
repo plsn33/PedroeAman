@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro e Amanda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Slider de fotos -->
+        <div class="slider-container">
+            <div class="slides">
+                <img src="Foto-1.jpeg" alt="Imagem 1">
+                <img src="Foto-2.jpeg" alt="Imagem 2">
+                <img src="Foto-3.jpeg" alt="Imagem 3">
+            </div>
+            <div class="indicators">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+        <!-- Áudios -->
+        <div class="audio-container">
+            <audio controls>
+                <source src="Daniel Caesar - Superpowers (Official Audio).mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+            <audio controls>
+                <source src="keshi - LIMBO (Lyrics) _ I only show you the best of me, the best of me.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+        </div>
+
+        <!-- Cronômetro de tempo juntos -->
+        <div class="container">
+            <h2>Tempo Juntos ❤️</h2>
+            <p id="countdown"></p>
+        </div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
